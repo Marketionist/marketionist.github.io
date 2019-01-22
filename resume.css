@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "LatoLatinWebThin";
+    src: url("./LatoLatin-Thin.ttf") format("truetype");
+}
+
+body {
+    color: #444444;
+    max-width: 720px;
+    min-height: 960px;
+    padding: 48px 48px;
+    background: #FFFFFF;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    font-family: LatoLatinWebThin;
+    font-weight: 300;
+    position: relative;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #444444;
+}
+
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-light-gray {
+    color: #D8D8D8;
+}
+
+.border-yellow {
+    border-left: 4px solid #E9BF28;
+}
+
+.block-content-main {
+    display: inline-block;
+    height: 24px;
+    margin-top: 40px;
+    padding: 20px 20px 20px 20px;
+}

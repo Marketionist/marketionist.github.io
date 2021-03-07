@@ -30,6 +30,11 @@ a:link, a:visited, a:hover, a:active {
     vertical-align: middle;
 }
 
+.text-vertical-left {
+    text-align: center;
+    vertical-align: middle;
+}
+
 .text-light-gray {
     color: #D8D8D8;
 }

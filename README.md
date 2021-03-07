@@ -1,2 +1,3 @@
 # https://marketionist.github.io/
-CV integrated to Github page
+
+Short biography integrated to GitHub page - see [https://marketionist.github.io/](https://marketionist.github.io/)

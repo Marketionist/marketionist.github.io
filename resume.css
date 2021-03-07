@@ -31,7 +31,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .text-vertical-left {
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
 }
 
@@ -43,9 +43,9 @@ a:link, a:visited, a:hover, a:active {
     border-left: 4px solid #E9BF28;
 }
 
-.block-content-main {
+.block-content-contacts {
     display: inline-block;
-    height: 24px;
+    height: 50px;
     margin-top: 40px;
     padding: 20px 20px 20px 20px;
 }

@@ -21,8 +21,22 @@ body {
     position: relative;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:active {
     color: #444444;
+}
+
+a:hover {
+    color: #E9BF28;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+[aria-labelledby="biography"] p {
+    margin-bottom: 40px;
 }
 
 .link-author {
@@ -39,8 +53,14 @@ a:link, a:visited, a:hover, a:active {
     vertical-align: middle;
 }
 
-.text-light-gray {
-    color: #D8D8D8;
+.text-vertical-right {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.text-footer {
+    color: #E9BF28;
+    margin-top: 70px;
 }
 
 .border-yellow {
@@ -52,4 +72,40 @@ a:link, a:visited, a:hover, a:active {
     height: 30px;
     margin-top: 40px;
     padding: 20px 20px 20px 20px;
+    width: 40%;
+}
+
+.block-content-main {
+    display: inline-block;
+    padding-top: 40px;
+    padding: 20px 20px 20px 20px;
+    width: 42%;
+}
+
+.image-frame {
+    box-shadow: 10px 10px 5px #CCCCCC;
+    -moz-box-shadow: 10px 10px 5px #CCCCCC;
+    -webkit-box-shadow: 10px 10px 5px #CCCCCC;
+    -khtml-box-shadow: 10px 10px 5px #CCCCCC;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.title-section {
+    border: 1px solid #E9BF28;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.width-170 {
+    width: 170px;
+}
+
+.width-240 {
+    width: 240px;
 }

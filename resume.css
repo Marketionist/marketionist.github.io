@@ -32,7 +32,7 @@ a:hover {
 
 ul {
     list-style-type: none;
-    margin-bottom: 40px;
+    margin-bottom: 31px;
 }
 
 [aria-labelledby="biography"] p {
@@ -72,7 +72,7 @@ ul {
     height: 30px;
     margin-top: 40px;
     padding: 20px 20px 20px 20px;
-    width: 40%;
+    width: 42%;
 }
 
 .block-content-main {

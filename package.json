@@ -1,0 +1,33 @@
+{
+  "name": "marketionist.github.io",
+  "version": "1.0.0",
+  "description": "Short biography integrated into GitHub page",
+  "main": "README.md",
+  "engines": {
+    "node": ">=8.x.x"
+  },
+  "scripts": {
+    "lint": "node ./node_modules/.bin/eslint tests/**/*.js",
+    "test": "node ./tests/links.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marketionist/marketionist.github.io"
+  },
+  "keywords": [
+    "biography",
+    "bio",
+    "github biography",
+    "github bio"
+  ],
+  "author": "Dmytro Shpakovskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marketionist/marketionist.github.io/issues"
+  },
+  "homepage": "https://marketionist.github.io/",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "img-link-checker": "^1.2.0"
+  }
+}

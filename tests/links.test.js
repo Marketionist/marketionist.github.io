@@ -3,7 +3,12 @@ const { checkFile } = require('img-link-checker');
 (async () => {
     const brokenLinks = await checkFile(
         './index.html',
-        ['https://www.linkedin.com/in/dshpakovskyi/']
+        [
+            'https://www.linkedin.com/in/dshpakovskyi/',
+            'https://testcon.co/testfest/uk-2021/',
+            'https://testcon.co/speakers/dmytro-shpakovskyi/',
+            'https://www.amazon.com/gp/product/B08HM9JXRK'
+        ]
     );
 
     // Print a list of broken links and exit the process (will mark the CI/CD build as failed)

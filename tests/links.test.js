@@ -7,7 +7,8 @@ const { checkFile } = require('img-link-checker');
             'https://www.linkedin.com/in/dshpakovskyi/',
             'https://testcon.co/testfest/uk-2021/',
             'https://testcon.co/speakers/dmytro-shpakovskyi/',
-            'https://www.amazon.com/gp/product/B08HM9JXRK'
+            'https://www.amazon.com/gp/product/B08HM9JXRK',
+            'https://www.amazon.com/stores/Dmytro-Shpakovskyi/author/B08J9VMLK8'
         ]
     );
 

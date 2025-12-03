@@ -6,7 +6,7 @@
 }
 
 body {
-    color: #444444;
+    color: #000000;
     max-width: 720px;
     min-height: 960px;
     padding: 48px 48px;
@@ -17,7 +17,7 @@ body {
     right: 0px;
     margin: auto;
     font-family: LatoLatinWebThin;
-    font-weight: 300;
+    font-weight: 900;
     position: relative;
 }
 
@@ -60,7 +60,7 @@ ul {
 }
 
 .text-footer {
-    color: #E9BF28;
+    color: #000000;
     margin-top: 70px;
 }
 
